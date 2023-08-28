@@ -1,0 +1,53 @@
+/* General styling for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FAF3E0; /* Light beige */
+    color: #333;  /* Dark text */
+}
+
+/* Header styles */
+header {
+    background-color: #FFD700;  /* Gold */
+    color: #000;  /* Black text */
+    text-align: center;
+    padding: 1em;
+}
+
+/* Navigation styles */
+nav ul {
+    background-color: #003366;  /* Deep blue */
+    overflow: hidden;
+    color: white;
+}
+nav ul li {
+    float: left;
+    display: inline;
+    padding: 14px 16px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+/* Individual sections */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background for contrast */
+}
+
+/* Footer */
+footer {
+    background-color: #003366; /* Deep blue */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
